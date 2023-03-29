@@ -61,7 +61,7 @@ form {
 .login-container h2 {
     margin: 15px;
     color: #333;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2.2rem;
 }
 
@@ -69,7 +69,7 @@ form {
     position: relative;
     display: grid;
     grid-template-columns: 7% 93%;
-    margin: 2px 0;
+    margin: 19px 0;
     padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
 }
@@ -101,7 +101,7 @@ form {
     transform: translateY(-50%);
     color: #999;
     font-size: 18px;
-    transition: 3s;
+    transition: 0.5s;
 }
 
 .input-div:before,.input-div:after{
@@ -127,7 +127,7 @@ form {
 }
 
 .input-div.focus>div>h5 {
-    top: -5px;
+    top: 2px;
     font-size: 15px;
 }
 
